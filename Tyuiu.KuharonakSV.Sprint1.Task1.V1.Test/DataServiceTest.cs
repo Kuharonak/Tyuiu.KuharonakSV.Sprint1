@@ -9,11 +9,11 @@ namespace Tyuiu.KuharonakSV.Sprint1.Task1.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService ();
-            double x = 6.0;
+            double x = 9.0;
             double y = 2.0;
             double a = 1.0;
             var res =  ds.Calculate(x, y, a);
-            Assert.AreEqual(7, res);
+            Assert.AreEqual(9, res);
 
 
 
