@@ -11,9 +11,9 @@ namespace Tyuiu.KuharonakSV.Sprint1.Task1.V1.Test
             DataService ds = new DataService ();
             double x = 12.0;
             double y = 2.0;
-            double a = 4.0;
+            double a = 1.0;
             var res =  ds.Calculate(x, y, a);
-            Assert.AreEqual(26, res);
+            Assert.AreEqual(8, res);
 
 
 
