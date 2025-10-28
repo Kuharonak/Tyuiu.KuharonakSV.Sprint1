@@ -7,7 +7,8 @@ namespace Tyuiu.KuharonakSV.Sprint1.Task2.V19.Lib
 
         public double ConvertInchToKm(int value)
         {
-            return value / 39.37;
+            double result = Math.Round((2.54*value)/100,3);
+            return result;
         }
     }
 }
