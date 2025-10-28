@@ -22,14 +22,14 @@ internal class Program
         Console.WriteLine("***************************************************************************");
 
         double x, y, a;
-        Console.WriteLine("Введите значение x");
-        x = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Введите значение a");
+        a = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("Введите значение y");
         y = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Введите значение a");
-        a = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Введите значение x");
+        x = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
