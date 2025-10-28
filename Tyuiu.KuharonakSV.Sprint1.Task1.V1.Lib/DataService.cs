@@ -5,7 +5,7 @@ namespace Tyuiu.KuharonakSV.Sprint1.Task1.V1.Lib
     {
         public double Calculate(double x, double y, double a)
         {
-            return x / 3 / y + 6 * a;
+            return Math.Round(y / 3 / a + 6 * x, 2);
         }
     }
 }
